@@ -9,7 +9,7 @@ public class diagonalSum {
     System.out.println("Enter the number of rows and columns:");
     System.out.print("Rows:");
     int row = sc.nextInt();
-    System.out.print("Colomns:");
+    System.out.print("Colomns:"); .
     int columns = sc.nextInt();
 
     matrix = new int[row][columns];
