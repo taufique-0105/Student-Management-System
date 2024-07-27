@@ -43,3 +43,8 @@ public class diagonalSum {
     return sum;
   }
 }
+
+void demo ()
+{
+  return "it's an demo";
+}
