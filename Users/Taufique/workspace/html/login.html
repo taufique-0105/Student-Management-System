@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="flex justify-center bg-transparent h-screen w-screen">
+        <div class="bg-transparent w-screen flex flex-row justify-center h-screen items-center absolute ">
+            <div class="my-16 ml-16 flex justify-center w-1/2 flex-col items-center bg-red-400 h-4/6">
+                <h1 class="text-3xl my-3">Login Here</h1>
+                <form>
+                    <div class="my-3 ">
+                        <label for="userName" class="font-bold">Username:</label>
+                        <input type="text" name="" id="userName" placeholder="Enter Your Username" class="rounded-lg p-2">
+                    </div>                    
+                    <div class="mb-3">
+                        <label for="password" class="font-bold">Password:</label>
+                        <input type="password" name="" id="password" placeholder="Enter password" class="rounded-lg p-2">
+                    </div>
+                </form>
+                <div>
+                    <button type="submit" class="bg-slate-800 text-white px-4 py-2 rounded-lg hover:bg-slate-500">
+                        Submit
+                    </button>
+                    <button type="reset" class="btn bg-slate-500 px-6 py-2 text-white rounded-lg hover:bg-slate-800">
+                        Reset
+                    </button>
+                </div>
+            </div>
+            <div class="bg-emerald-400 w-1/2 flex flex-col justify-center text-center">
+                <h1>Resister Here</h1>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
