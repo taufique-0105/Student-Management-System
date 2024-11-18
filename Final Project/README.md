@@ -1,7 +1,4 @@
 # KOLLEGE
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
 [kollege.onrender.com](https://kollege.onrender.com)
 
 A College Based Data Management System.
@@ -71,13 +68,13 @@ Student can also join or leave a Paper(Subject).
 Clone the project:
 
 ```bash
-  git clone https://github.com/iafthab/kollege.git
+  git clone https://github.com/taufique-0105/Student-Management-System.git
 ```
 
 Change Directory:
 
 ```bash
-  cd kollege
+  cd src
 ```
 
 Install dependencies:
@@ -95,7 +92,7 @@ Finally,
 ### Using your own server and database
 
 The requests are send to the hosted server by default.  
-if you want to use your own server and database, follow the steps [here](https://github.com/iafthab/kollege_api#readme) to step up one.
+<!-- if you want to use your own server and database, follow the steps [here] https://github.com/taufique-0105/Student-Management-System/tree/main/Kollage_api to step up one. -->
 
 Then, go to src/config/api/axios.js. change the baseURL to your backend address:
 
@@ -117,23 +114,21 @@ baseURL: "https://example.address.com";
 
 Errors are bound to happen and the documentation is incomplete.  
 I'd love to hear feedbacks and suggestions.  
-In any case, start a conversation: [LinkedIn](https://www.linkedin.com/in/iafthab) [Telegram](https://tttttt.me/LazySage01) [Mail](mailto:afthabiqbal123@gmail.com)(Make sure your mail doesn't get flagged as spam/junk)  
-Thank You ❤️.
 
 ## Acknowledgements
 
-- [MERN Stack Tutorial](https://www.youtube.com/watch?v=CvCiNeLnZ00&pp=ygUOZGF2ZSBncmF5IGZ1bGw%3D) by [Dave Gray](https://github.com/gitdagray)
+<!-- - [MERN Stack Tutorial](https://www.youtube.com/watch?v=CvCiNeLnZ00&pp=ygUOZGF2ZSBncmF5IGZ1bGw%3D) by [Dave Gray](https://github.com/gitdagray)
 - [React Tutorial](https://www.youtube.com/watch?v=RVFAyFWO4go&pp=ygUOZGF2ZSBncmF5IGZ1bGw%3D) by [Dave Gray](https://github.com/gitdagray)
 - [React Icons](https://react-icons.github.io/react-icons/search)
 - [React Router](https://reactrouter.com/en/main)
 - [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
 - [axios](https://axios-http.com/)
-- [README Editor](readme.so)
+- [README Editor](readme.so) -->
 
 ## Related
 
-[kollege_api](https://github.com/iafthab/kollege_api)
+[kollege_api](https://github.com/taufique-0105/Student-Management-System/tree/main/Kollage_api)
 
-## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+
+
