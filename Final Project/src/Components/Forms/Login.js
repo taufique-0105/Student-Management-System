@@ -6,6 +6,11 @@ import { FaUniversity } from "react-icons/fa";
 import { PiStudentThin, PiUserThin, PiSpinnerGapBold } from "react-icons/pi";
 import CircleDesign from "../Layouts/CircleDesign";
 import ErrorStrip from "../ErrorStrip";
+// import gietLogo from '../../../public/GIETLogo.png';
+
+
+
+
 
 const Login = () => {
   const navigate = useNavigate();
@@ -74,11 +79,18 @@ const Login = () => {
           <section className="z-0 mb-4 flex items-center duration-200 gap-2 whitespace-nowrap text-6xl md:text-8xl lg:gap-4">
             <FaUniversity />
             <h1 className="font-spectral font-semibold  text-slate-900  dark:text-slate-300 ">
-              K
-              <span className="inline-block h-10 w-10 rounded-full bg-violet-900 dark:bg-violet-600 md:h-14 md:w-14 xl:h-14 xl:w-14"></span>
-              llege
+              GIET Baniatangi 
+              {/* <span className="inline-block h-10 w-10 rounded-full bg-violet-900 dark:bg-violet-600 md:h-14 md:w-14 xl:h-14 xl:w-14"></span> */}
+              
             </h1>
+         
+
           </section>
+
+          <span>
+            <img src="" alt="GIET Logo" />
+          </span>
+         
           <section className="z-0 w-[65%] justify-self-center rounded-lg bg-slate-100 opacity-80 hover:opacity-100 focus:opacity-100 duration-200 dark:bg-[#060913] sm:w-[min(50%,360px)] md:w-[min(40%,360px)] xl:w-[min(23%,360px)] ">
             <form
               className="tracking-wide placeholder:text-slate-200 dark:placeholder:text-violet-200 "
