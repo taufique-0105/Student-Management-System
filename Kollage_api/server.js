@@ -9,6 +9,10 @@ const corsOptions = require("./config/corsOptions");
 const connectDB = require("./config/dbConn");
 const mongoose = require("mongoose");
 
+app.get("/",(req,res)=>{
+  res.send("root is working");
+});
+
 const PORT = process.env.PORT || 3500;
 
 connectDB();

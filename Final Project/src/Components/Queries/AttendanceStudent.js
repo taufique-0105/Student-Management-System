@@ -10,6 +10,8 @@ const AttendanceStudent = () => {
   const [date, setDate] = useState("");
   const [error, setError] = useState("");
 
+  console.log("Hii" + attendance);
+
   // fetching Attendance
   const fetchAttendance = async (e) => {
     e.preventDefault();
@@ -24,6 +26,7 @@ const AttendanceStudent = () => {
       setError(err);
     }
   };
+
 
   return (
     <main className="attendance">
